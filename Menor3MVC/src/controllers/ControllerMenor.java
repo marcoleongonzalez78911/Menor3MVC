@@ -29,7 +29,7 @@ public class ControllerMenor {
     view_menor.setVisible(true);
     
     }
-    public void jbtn_mayor_click(){
+    public void jbtn_menor_click(){
     model_menor.setN1(Integer.parseInt(view_menor.jtf_n1.getText()));
     model_menor.setN2(Integer.parseInt(view_menor.jtf_n2.getText()));
     model_menor.setN3(Integer.parseInt(view_menor.jtf_n3.getText()));
