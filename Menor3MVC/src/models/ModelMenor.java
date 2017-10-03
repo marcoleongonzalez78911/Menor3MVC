@@ -35,20 +35,20 @@ package models;
     public void setM(int m){
         this.m = m;
     }
-    public void mayor(){
+    public void menor(){
             m = n1;
-            if(n2>m){
+            if(n2<m){
                 m=n2;
             }
-            if(n3>m){
+            if(n3<m){
                 m=n3;
             }
     
     }//mayor
 
-    public void menor() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    /* public void menor() {
+    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }*/
     
 }//class
 
